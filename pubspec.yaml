@@ -10,6 +10,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   desktop_window: ^0.4.0
   responsive_builder: ^0.4.1
+  universal_io: ^2.0.4
 dev_dependencies:
   flutter_test:
     sdk: flutter

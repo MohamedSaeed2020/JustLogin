@@ -28,21 +28,17 @@ class LoginScreenDeskTop extends StatelessWidget {
             child: Form(
               key: formKey,
               child: Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Container(
-                    width: 350,
-                    height: 350,
+                  Expanded(
                     child: Image(
                       image: AssetImage('assets/images/account.png'),
                     ),
                   ),
-                  const SizedBox(
-                    width: 30.0,
-                  ),
+
                   Expanded(
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         ///Email TFF
                         defaultTextFormField(
